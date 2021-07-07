@@ -1,0 +1,25 @@
+<idea-plugin>
+    <id>com.daniel.example.jetbrains.ruby.aasm</id>
+    <name>Postfix Sample</name>
+    <vendor email="khun84@gmail.com" url="https://github.com/khun84">DanielLee</vendor>
+
+    <description><![CDATA[
+    Enhanced code insight for AASM state machine gem
+    ]]></description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.modules.ruby</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+    </extensions>
+    <extensions defaultExtensionNs="org.jetbrains.plugins.ruby">
+        <callTypeProvider implementation="com.daniel.example.jetbrains.ruby.codeInsight.AasmCallTypeProvider"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
