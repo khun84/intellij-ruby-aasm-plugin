@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.daniel'
-version '1.0'
+version '1.1'
 
 repositories {
     mavenCentral()
@@ -18,16 +18,16 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version="211.7628.21"
+    version="213.6777.52"
     type='IU'
     downloadSources=true
-    plugins=['org.jetbrains.plugins.ruby:211.7142.13']
+    plugins=['org.jetbrains.plugins.ruby:213.6461.79']
 }
 patchPluginXml {
     changeNotes="""
       Add change notes here.<br>
       <em>most HTML tags may be used</em>"""
-    sinceBuild="211"
+    sinceBuild="213"
 }
 test {
     useJUnitPlatform()
