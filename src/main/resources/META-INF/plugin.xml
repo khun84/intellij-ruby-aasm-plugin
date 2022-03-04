@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>com.daniel.example.jetbrains.ruby.aasm</id>
-    <name>Postfix Sample</name>
+    <name>AASM</name>
     <vendor email="khun84@gmail.com" url="https://github.com/khun84">DanielLee</vendor>
 
     <description><![CDATA[
